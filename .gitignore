@@ -55,3 +55,8 @@ dkms.conf
 vmlinux
 sun8iw5p1_dragonboard_fspad-733_card0.img
 rootfs.ext4
+boot.img
+uImage
+vmlinux.tar.bz2
+zImage
+tags
