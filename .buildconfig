@@ -1,0 +1,4 @@
+export LICHEE_CHIP=sun8iw5p1
+export LICHEE_PLATFORM=dragonboard
+export LICHEE_KERN_VER=linux-3.4
+export LICHEE_BOARD=fspad-733

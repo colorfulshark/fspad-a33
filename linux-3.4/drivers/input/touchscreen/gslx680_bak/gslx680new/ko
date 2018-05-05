@@ -1,0 +1,10 @@
+filename:       /home/david/softwinner/A33/androidL/lichee/linux-3.4/drivers/input/touchscreen/gslx680_bak/gslx680new/gslX680new.ko
+alias:          platform:gsl_ts
+author:         Guan Yuwei, guanyuwei@basewin.com
+description:    GSLX680 touchscreen controller driver
+license:        GPL
+alias:          i2c:gslX680
+depends:        
+intree:         Y
+vermagic:       3.4.39 SMP preempt mod_unload modversions ARMv7 p2v8 
+parm:           debug_mask:int
