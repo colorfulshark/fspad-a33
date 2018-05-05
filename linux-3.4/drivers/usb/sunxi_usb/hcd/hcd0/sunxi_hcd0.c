@@ -644,10 +644,12 @@ static void sunxi_hcd_board_set_vbus(struct sunxi_hcd *sunxi_hcd, int is_on)
 		on_off = is_on ? 0 : 1;
 	}
 
+#if 0
 	/* set gpio data */
 	if (sunxi_hcd->sunxi_hcd_io->drv_vbus_valid) {
 		__gpio_set_value(sunxi_hcd->sunxi_hcd_io->drv_vbus_gpio_set.gpio.gpio, on_off);
 	}
+#endif
 #endif
 
 	if (is_on) {
